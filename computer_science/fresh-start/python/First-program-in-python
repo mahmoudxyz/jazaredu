@@ -1,0 +1,40 @@
+## Introduction
+
+In this lesson, we will dive into the world of Python programming by learning how to write our very first program. Additionally, we will explore different Integrated Development Environments (IDEs) and gain a better understanding of which one would be best suited for our needs. So, let's get started on our journey!
+
+## IDE
+
+An IDE, or integrated development environment, is a software application used to write and develop code. Unlike a basic text editor, an IDE offers advanced features such as code suggestions and error detection to enhance your programming experience. While you can write code in a text editor, we highly recommend using an IDE for optimal functionality and efficiency.
+
+Now, the question arises, which IDE should you choose? The good news is, the choice is entirely up to you. You can even opt for an online compiler to write your code. However, for Python programming, we recommend using either [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) or [Spyder]([Spyder](https://www.spyder-ide.org/)), which are highly reliable and efficient IDEs. You can select the one that suits your operating system and install it on your machine for a seamless programming experience.
+
+## Python
+
+Before we begin writing Python code, there's one more crucial step we need to take, and that is to download and install Python on your machine. You can download the latest version of Python from the official website [here](https://www.python.org/downloads/).
+
+It's important to note that you must install Python before writing Python code, as it is the foundation of the entire programming process. Python has two major versions, namely Python 2 and Python 3. However, it's highly recommended that you choose Python 3 as it is the latest version and has better support for new features and libraries. So, ensure that you select Python 3 during the installation process to avoid any compatibility issues in the future.
+
+## First program
+
+Finally, it's time to write our first Python program. Open the IDE you selected, in this case, we're using PyCharm, and create a new project. Once the project is created, you'll see a file named main.py on the left-hand side. If it's not already open, click on it to open the file. Next, delete all the generated code and replace it with the following code:
+
+```
+print("Hello, World!")
+```
+
+Don't worry about the details or how this code works for now. In simple terms, the print() function tells the computer to output the text inside the parenthesis.
+
+Now, let's run this code. Click on the green run button located in the top right corner of your IDE, or use the shortcut Shift+F10. After running the code, you should see the following output in the console:
+
+```
+Hello, World!
+
+```
+
+Congratulations, you've just written and executed your first Python program!
+
+## Conclusion
+
+In this lesson, we learned how to write and execute our first program. We also explored the importance of using an IDE for programming and the different options available, with a recommendation to use PyCharm or Spyder for Python programming. Furthermore, we discussed the significance of installing Python on our machines and choosing Python 3 as the preferred version.
+
+Learning to program can seem daunting at first, but with practice and perseverance, it can be an incredibly rewarding experience. Now that you've taken the first step in your Python programming journey, we encourage you to continue exploring and experimenting with the language to build your skills and knowledge.

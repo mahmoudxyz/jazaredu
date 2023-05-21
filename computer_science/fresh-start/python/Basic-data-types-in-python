@@ -1,0 +1,66 @@
+## Introduction 
+
+Python has several built-in data types, which are used to store different types of information. In this lesson we will take big picture about them.
+
+## Integers
+
+Python 3 can handle whole numbers of any size with the `int` data type. There is no limit to how big the number can be.
+
+```
+print(123)
+
+# output: 123
+
+```
+## Floating-Point Numbers
+
+Floating-point numbers, also known as floats, are a data type used to represent numbers with decimal points. In Python, floating-point numbers are represented using the float type. For example:
+
+```
+print(1.1)
+
+# output: 1.1
+
+```
+
+## String
+Strings are a data type used to represent text in Python. They are represented using the `str` type, and can be created by enclosing text in single quotes, double quotes, or triple quotes. For example:
+
+```
+print('Eyad')
+
+# output: Eyad
+
+```
+
+```
+print("Farouk")
+
+# output: Farouk
+
+```
+
+```
+print("""The Egyptian pyramids are ancient masonry structures located in Egypt.""")
+
+# output: The Egyptian pyramids are ancient masonry structures located in Egypt.
+
+```
+
+Triple quotes in Python are used to create multiline strings that can span across multiple lines and include newlines and spaces. This is useful when you need to include text with line breaks and formatting, such as when writing documentation or formatting text output.
+
+
+## Boolean 
+
+In Python, boolean values are used to represent logical true or false values. Booleans are a data type that can have only two possible values: `True` or `False`. They are often used in decision-making and flow control statements, such as if-else statements and while loops which will be covered in the next lessons.
+
+Booleans are created using the `True` and `False` keywords in Python. For example:
+
+
+```
+print(True)     # Output: True
+
+```
+## Conclusion
+
+Python offers several built-in data types for storing and manipulating different types of information. Integers and floating-point numbers are used to represent numerical values in Python, while strings are used for representing text data. Booleans are used to represent logical true or false values and are often used in decision-making and flow control statements. Understanding these basic data types is essential for working with Python and will serve as a foundation for learning more advanced programming concepts.

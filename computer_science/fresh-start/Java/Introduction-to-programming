@@ -1,0 +1,55 @@
+### What is programming?
+
+To effectively communicate with someone, it's important to speak in a language they can comprehend. Similarly, when it comes to programming, computers are unable to interpret natural languages like humans do. Instead, we must use a specific language known as a programming language.
+
+Programming languages are designed to provide instructions to computers in a structured and precise manner. They allow programmers to create programs that can be executed by the computer to perform various tasks.
+
+It's important to note that different programming languages have different features and are suited for different purposes. For example, a web developer might use HTML, CSS, and JavaScript to build a website, while a data analyst might use Python or R to analyze and manipulate large datasets.
+
+In essence, programming languages serve as a bridge between humans and computers, enabling us to communicate our ideas and intentions to machines in a way they can understand and execute.
+
+Here's example of code that tell computer to print hello world in Java. You don't have to understand anything, just take a look:
+
+### What is programming?
+
+To effectively communicate with someone, it's important to speak in a language they can comprehend. Similarly, when it comes to programming, computers are unable to interpret natural languages like humans do. Instead, we must use a specific language known as a programming language.
+
+Programming languages are designed to provide instructions to computers in a structured and precise manner. They allow programmers to create programs that can be executed by the computer to perform various tasks.
+
+It's important to note that different programming languages have different features and are suited for different purposes. For example, a web developer might use HTML, CSS, and JavaScript to build a website, while a data analyst might use Python or R to analyze and manipulate large datasets.
+
+In essence, programming languages serve as a bridge between humans and computers, enabling us to communicate our ideas and intentions to machines in a way they can understand and execute.
+
+Here's example of code that tell computer to print hello world in Java. You don't have to understand anything, just take a look:
+
+
+```
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+Programming is much more than just writing code. While coding is certainly an essential part of the programming process, it is just one stage in a much larger problem-solving process. At its core, programming is about using your problem-solving skills to create automated solutions for real-world problems. 
+
+So, in short, no, programming is not just writing code. It is a complex and multifaceted process that involves a variety of skills and techniques, all aimed at creating effective and efficient solutions to complex problems.
+
+### White lie
+
+Computers themselves cannot directly understand programming languages.
+
+So, what language do computers understand? The answer is simple: computers only understand binary code, which is made up of a series of zeros and ones. This is because computers are essentially made up of electronic switches known as transistors, which can only be in one of two states at any given time. We will cover **transistors** in another courses in details.
+
+### Use case
+
+As Student in the beginning of your journey, you will meet a lot of people telling you that programming language is better than another one and why are you still learn this old language? To end this comedian show early. please focus on learning the concepts and basics of science. You can do this with any programming language. 
+
+Every programming language has specific use case so choosing a language depends on the problem you want to solve but in the beginning this not that important. 
+
+By focusing on learning the concepts and basics of science, you will gain a deep understanding of how programming works and be better equipped to learn any language you need in the future. It's like learning how to drive a car - once you understand the basic mechanics of how it works, you can easily adapt to driving different types of cars with different features.
+
+### Conclusion
+  
+In conclusion, programming languages serve as a crucial tool for communicating with computers and creating programs to perform various tasks. While computers only understand binary code, programming languages provide a way for humans to communicate with machines in a structured and precise manner. Choosing a programming language depends on the problem you want to solve, but it's important to focus on learning the concepts and basics of programming in order to gain a deep understanding of how it works and be better equipped to learn any language in the future.
+

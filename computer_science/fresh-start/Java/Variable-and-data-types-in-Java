@@ -1,0 +1,131 @@
+## Introduction:
+
+We already learned what is data type and in this topic we will talk about them again but in this time using Java.
+
+In Java programming, just as in the physical world, different types of boxes are used to store different types of items. Similarly, in programming, we use data types to store information in variables(boxes). The type of a variable determines the kind of information it can hold, just as the size and shape of a box affects what can be stored in it.
+
+## Variable
+
+A variable is a named storage location in the computer's memory where you can store data. You can think of it like a labeled box that holds a value that can be changed throughout the course of a program.
+
+```
+public class Main {
+    public static void main(String[] args) {
+        String name = "Mahmoud";
+    }
+}
+```
+Let's break this code again:
+
+`public` means that this class or function or anything will be public for all other classes and can be seen and modified from other classes.
+
+`class`: You can treat class like a blueprint or a template that defines the characteristics and behaviors.
+
+`public static void main`: `main` here is called a function and in java functions must be declared inside a class. This why you will always see classes in java.
+
+While this seems a bit hard and difficult for now but this will be the start point for any program will write in the future and we will dive deep and understand all these stuffs and make it easier.
+
+Notice that Java and most programming languages are case sensitive so if you wrote "Public" instead of "public", it will give you an error. 
+
+The most important thing here is:
+
+```
+String name = "Mahmoud";
+```
+We declared a variable and called it `name`. We specify the data type by writing `String` before `name`.
+
+We give name a value by using = and then the value. Finally don't forget to add semicolon in the end of the statement.
+
+Having said that, let's get more example using different data types. 
+
+## Main Data Types:
+
+### boolean:
+
+The Boolean data type in Java represents a logical value of either true or false. It is commonly used to store information that can be expressed in terms of binary logic, such as whether a condition is satisfied or not.
+
+Example:
+
+```
+boolean isAdmin = true;
+System.out.println(isAdmin); //output: true
+```
+
+### char:
+
+The "char" data type in Java is used to store a single character value, such as a letter, number, or symbol. A "char" variable can only hold a single character, making it useful for situations where you only need to store a small amount of information, such as a single letter or digit.
+
+Example:
+
+
+```
+char letter = 'a';
+System.out.println(letter); //output: a
+```
+
+## String:
+
+In Java, a "String" data type represents a sequence of characters, including letters, numbers, and symbols. A string can hold multiple characters, making it useful for storing longer or more complex pieces of information. However, it is important to note that in programming, numbers stored as part of a string are treated as text and cannot be used for mathematical operations without first converting them to a numeric data type.
+
+Example:
+
+```
+String name = "John";
+System.out.println(name); //output: John
+
+```
+```
+String age = "25";
+System.out.println(age); //output: 25
+```
+
+### int:
+
+In Java, "int" is a common data type used to store whole numbers. Integers represent only whole numbers, both positive and negative. Integers are useful for a wide variety of programming tasks, such as counting, indexing, and performing mathematical operations that involve whole numbers.
+
+Example:
+
+```
+int count = 10;
+System.out.println(count); //output: 10
+```
+
+### float:
+
+In Java, "float" is a data type used to represent decimal values. Floats can store a wide range of numbers, including both whole numbers and fractions, making them useful for performing mathematical calculations that involve decimal values.
+
+Example:
+
+
+```
+float pi = 3.14f;
+System.out.println(pi); //output: 3.14
+```
+
+## Why is it important?
+
+Understanding the different data types available in Java and their respective strengths and weaknesses is important for writing efficient and accurate code. By selecting the appropriate data type for each variable, you can ensure that your code is optimized for speed, accuracy, and reliability.
+
+Using the wrong data type can lead to errors and unexpected behavior. For example, trying to sum two numbers stored as strings will concatenate the strings instead of performing addition.
+
+Example:
+
+
+```
+String num1 = "5";
+String num2 = "5";
+System.out.println(num1 + num2); //output: 55
+```
+## Note
+
+Only String is starting with capital letter and this because String in Java is class and not primitive and this will be covered in details in next topics.
+
+In Java, variable names should start with a lowercase letter. For example, num is a valid variable name. If a variable name is made up of two or more words, the convention is to use **camel case**, where the first letter of each word is capitalized except for the first word. For example, `firstName` is a valid variable name.
+
+It's important to note that following naming conventions is not only a standard practice but also helps in the readability of the code. Although it's possible to use all uppercase letters or any other combination of letters and numbers, it's recommended to use standard naming conventions for the sake of consistency and readability.
+
+For example, using `FIRSTNAME` instead of `firstName` may compile and run without errors, but it can be confusing and harder to read for other programmers. By using standard naming conventions, your code becomes more understandable, maintainable, and easier to collaborate on with other developers.
+
+## Conclusion:
+
+In conclusion, choosing the correct data type is crucial for efficient and accurate programming in Java. Each data type has its own strengths and limitations, which must be carefully considered when selecting the appropriate type for a given variable. By understanding the different data types available and their respective applications, programmers can write code that is optimized for speed, accuracy, and reliability.

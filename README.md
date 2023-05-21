@@ -46,5 +46,3 @@ Congratulations! By contributing content, you will earn points based on our poin
 We appreciate your contributions and look forward to seeing your valuable content on our educational website!
 
 If you have any questions or need further assistance, please reach out to our team.
-
-Happy content creation!

@@ -6,7 +6,7 @@ Thank you for your interest in contributing content to our educational website! 
 
 ## Step 1: Fork the Repository
 
-1. Visit our GitHub repository: [insert repository link].
+1. Visit our GitHub repository: (https://github.com/mahmoudxyz/jazaredu.git).
 2. Click on the "Fork" button in the top right corner of the repository page.
 3. This will create a copy of the repository in your GitHub account.
 

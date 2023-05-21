@@ -1,0 +1,118 @@
+## PK versus Clinical PK
+
+1. **Pharmacokinetics (PK)** defined as the study of the time course of
+drug absorption, distribution, metabolism, and excretion.
+
+2. **Clinical (PK)** is the discipline that applies pharmacokinetic concepts and principles in humans in order to design individualized dosage regimens that optimize the therapeutic response of a medication while minimizing the chance of an adverse drug reaction. 
+
+3. **Pharmacodynamics:** It is the relationship between drug concentration and pharmacological response. It is extremely important for clinicians to realize that the change in drug effect is usually not proportional to the change in drug dose or concentration.
+
+## Applications of pharmacokinetics
+
+1. bio-availability measurements
+2. Effects of physiological and pathological conditions on drug disposition and
+absorption
+3. Dosage adjustment of drugs in disease states, if and when necessary
+4. Correlation of pharmacological responses with administered doses
+5. Evaluation of drug interactions
+6. Clinical Prediction: using pharmacokinetic parameters to individualize the drug dosing regimen and thus provide the most effective drug therapy
+
+## Drug Journey
+
+You may give it through IV route then it will be 100% in the blood.
+
+You may give it through oral route and then the journey will be as follow: stomach then small intestine then liver then blood.
+
+Note1: Drug will go through first pass metabolism and lose some of the dose in live.
+
+Note2: Drug may go back from liver to small intestine which called **enterohepatic recycle**.
+
+Enterohepatic recycle: Can also occur with drugs, as some drugs can be metabolized by the liver and then excreted into the bile. Once in the small intestine, the drug can be reabsorbed and then transported back to the liver, where it may be metabolized again or excreted in the bile once more. This process can prolong the effects of the drug and may also contribute to drug toxicity or side effects.
+
+Note3: What applies to oral, applies for any other extra-vascular route like: sublingual, buccal, intramuscular, subcutaneous and dermal. Absorption in all of them is retorted and incomplete.
+
+## Review of ADME processes
+
+• Absorption: the molecules must pass through the various layers until they enter capillaries.
+
+• Distribution occurs when drug molecules that have entered the vascular system pass from the bloodstream into various tissues and organs such as the muscle or heart.
+
+• Metabolism is the chemical conversion of the drug molecule, usually by an enzymatically mediated reaction, into another chemical entity referred to as a metabolite.
+
+• Excretion is the irreversible removal of drug from the body and commonly occurs via the kidney or biliary tract.
+
+## When drug gives effect?
+
+![conc of drug verses time graph](https://i.imgur.com/fMXrIoq.png)
+
+To answer the section'c questions, The drug will gives the effect when reach MEC and not just absorbed because it may absorbed but not reached MEC.
+
+### Onset of action: 
+
+The time at which the administered drug reaches the therapeutic range and begins to produce the effect.
+
+### Duration of action:  
+
+The time span from the beginning of the onset of action up to the.
+termination of action.
+
+### Termination of action:
+
+The time at which the drug concentration in the plasma falls below the
+minimum effective concentration (MEC).
+
+### Therapeutic range:
+
+The plasma or serum concentration (e.g. mg/mL) range within which the
+drug is likely to produce the therapeutic activity or effect. 
+
+As a clinical pharmacist, it is essential to maintain the therapeutic range of a drug, where it remains effective while minimizing side effects.
+
+## Single Dose (Extravascular Route)
+
+![profile of Single Dose (Extravascular Route) graph](https://i.imgur.com/L99eUvw.png)
+
+### Important features of extravascular routes of drug administration
+
+1. An absorption phase is present.
+2. The onset of action is determined by factors such as formulation and type of
+dosage form, route of administration, physicochemical properties of drugs and
+other physiological variables.
+3. The entire administered dose of a drug may not always reach the general
+circulation (i.e. incomplete absorption).
+
+Why the graph is oral? Simply put, as absorption phase is present.
+
+## Single Dose (IV Route)
+
+![profile of Single Dose (IV Route) graph](https://i.imgur.com/OH5dqjW.png)
+
+### Important features of the intravascular route of drug administration
+1. There is no absorption phase.
+2. There is immediate onset of action.
+3. The entire administered dose is available to
+produce pharmacological effects
+4. Adverse reactions are difficult to reverse or control;
+accuracy in calculations and administration of drug
+dose, therefore, are very critical
+
+What is the difference between IV and extravasculr?
+1. In IV, no absorption. 
+2. In IV, onset is immediate.
+3. In IV, F always = 1.
+
+Not always we should give patient IV.
+
+## Conclusion
+
+In conclusion, pharmacokinetics is a crucial discipline that helps clinicians optimize medication dosages to achieve the desired therapeutic response while minimizing adverse drug reactions. 
+
+Understanding the drug journey, including absorption, distribution, metabolism, and excretion, is essential for clinicians to make informed decisions. 
+
+Additionally, pharmacodynamics plays a vital role in the relationship between drug concentration and pharmacological response. 
+
+The therapeutic range is critical for maintaining drug efficacy while minimizing side effects. 
+
+Lastly, different routes of drug administration, including extravascular and intravascular, have unique characteristics that affect the onset, duration, and termination of drug action. 
+
+Overall, knowledge of pharmacokinetics is crucial for clinicians to provide individualized and effective drug therapy to their patients.

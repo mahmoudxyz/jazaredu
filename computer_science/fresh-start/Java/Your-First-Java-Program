@@ -1,0 +1,41 @@
+## Introduction:
+
+We learned to set up our development environment. This involves installing Java and an Integrated Development Environment (IDE) such as IntelliJ IDEA, Eclipse, or NetBeans. 
+
+Follow the steps outlined in the previous topic to install Java and an IDE. In this guide, we'll walk you through the basics of creating your first Java program.
+
+## Creating your first Java program:
+
+Once you have your development environment set up, you can create your first Java program. Here's how:
+
+1. Open your IDE and create a new project. Give it a name and choose a location on your computer to save it. Check "Add sample code" option if not and then click create.
+
+![Create new project in IntelliJ](https://i.imgur.com/OpbznQA.png)
+
+New project will be created and new file will opened with the following code:
+
+```
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, World!");
+  }
+}
+```
+
+2. Save your program and click the Run button in your IDE or Shift + F10. You should see the message "Hello, World!" printed in the console.
+
+Congratulations! You've just written your first Java program. Let's break down what the code is doing:
+
+The first line declares a new class called "HelloWorld".
+The next line declares a "main" method, which is the entry point for your program. This method is executed when you run your program.
+The third line prints the message "Hello, World!" to the console.
+
+Are you wondering what a method or class is in Java? Don't worry, it's a common question for beginners. In Java, every program must be contained within a class, which should begin with a capital letter. 
+
+The main method is the entry point for your program, and it enables you to run your code. All code you need to execute should be written within the main method.
+
+While this information is a good starting point, there's still much more to learn about methods and classes in Java. In future lessons, we'll delve deeper into these concepts and explore them in the correct order. Stay tuned!
+
+## Conclusion:
+
+Now that you've created your first Java program, you can start exploring the language and learning more advanced concepts. Java is a powerful and versatile language that can be used for a wide range of projects. Don't be afraid to experiment and try new things as you learn. Happy coding!

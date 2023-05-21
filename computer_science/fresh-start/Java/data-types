@@ -1,0 +1,109 @@
+## Introduction
+
+In the physical world, some people use boxes to store their possessions. Different types of items require different types of boxes for storage. Similarly, in programming, we use data types to store information in variables. Just as the size and shape of a box affects what we can store in it, the data type of a variable determines the kind of information it can hold.
+
+We have different types of data and in programming you will be responsible to choose the type of the container that you will store information in.
+
+## Main data types
+
+There are 5 main types of data:
+
+1. Bool: 
+
+The Boolean data type in programming represents a logical value of either true or false. It is commonly used to store information that can be expressed in terms of binary logic, such as whether a condition is satisfied or not.
+
+For instance, suppose you need to track whether a user has administrator privileges or not. In this case, you could use a Boolean variable to store this information, where "true" would represent the user being an admin and "false" would indicate that they are not.
+
+Example:
+
+```
+True
+```
+
+
+2. Char: 
+
+The "char" data type in programming is short for "character" and is used to store a single character value, such as a letter, number, or symbol.
+
+Unlike some other data types, which can store multiple values, a "char" variable can only hold a single character. This makes it useful for situations where you only need to store a small amount of information, such as a single letter or digit.
+
+Example:
+
+```
+'a'
+```
+
+3. String
+
+In programming, a "string" data type represents a sequence of characters, including letters, numbers, and symbols. Unlike the "char" data type, which can only store a single character, a string can hold multiple characters, making it useful for storing longer or more complex pieces of information.
+
+However, it is important to note that in programming, numbers stored as part of a string are treated as text and cannot be used for mathematical operations without first converting them to a numeric data type.
+
+For example, if you wanted to store a person's full name, you might use a string variable. Similarly, if you were creating a program to manage a list of customer phone numbers, you might use a string data type to store each phone number as a series of characters.
+
+Example:
+
+```
+"My name is Mahmoud"
+
+"55"
+```
+
+4. Integers: 
+
+Often abbreviated as "int" in programming, are a common data type used to store whole numbers. Unlike floating-point numbers, which can store decimal values, integers represent only whole numbers, both positive and negative.
+
+Integers are useful for a wide variety of programming tasks, such as counting, indexing, and performing mathematical operations that involve whole numbers.
+
+For example, if you were creating a program to track inventory levels in a warehouse, you might use integer variables to represent the number of units of each item in stock.
+
+Example:
+
+```
+55
+```
+As you noticed that "55" inside double quotes is String while 55 with double quotes is Integer.
+
+5. Floating-point numbers: 
+ 
+Or "floats" in programming, are a data type used to represent decimal values. They can store a wide range of numbers, including both whole numbers and fractions, making them useful for performing mathematical calculations that involve decimal values.
+
+For example, if you were writing a program to calculate the average temperature for a given day, you might use a float variable to store the temperature, since it could potentially contain decimal values.
+
+Example:
+
+```
+55.0
+
+1.2
+```
+## Why is it important? 
+
+Understanding the different data types available in programming and their respective strengths and weaknesses is an important part of writing efficient and accurate code. By selecting the appropriate data type for each variable, you can ensure that your code is optimized for speed, accuracy, and reliability.
+
+Not only that, choosing the incorrect data type will result in error for example you want to sum two numbers and stored them as string like below:
+
+```
+"5" + "5"
+```
+
+The result will not be 10 but "55". 
+
+What if we do the following:
+
+```
+"3" - 1
+```
+This will gives an error.
+
+So before storing any data, you should choose the correct type of box or data type here which depends on what you will do later with this data.
+
+## conclusion
+
+In conclusion, data types are essential building blocks in programming. They enable us to store and manipulate information in a way that is efficient and accurate. 
+
+Each data type has its own strengths and limitations, which must be carefully considered when selecting the appropriate type for a given variable. 
+
+By understanding the different data types available and their respective applications, programmers can write code that is optimized for speed, accuracy, and reliability. 
+
+Using the wrong data type can lead to errors and unexpected behavior, so it is important to choose the right type for each situation.

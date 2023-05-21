@@ -1,0 +1,62 @@
+## Introduction
+
+Arithmetic operators in Java are used to perform mathematical calculations on numeric values. Java supports the following arithmetic operators:
+
+Addition (+): This operator is used to add two or more numeric values together. For example, 3 + 5 = 8.
+
+Subtraction (-): This operator is used to subtract one numeric value from another. For example, 8 - 5 = 3.
+
+Multiplication (*): This operator is used to multiply two or more numeric values together. For example, 3 * 5 = 15.
+
+Division (/): This operator is used to divide one numeric value by another. For example, 15 / 5 = 3.
+
+Modulus (%): This operator is used to get the remainder of dividing one numeric value by another. For example, 15 % 4 = 3 (since 15 divided by 4 equals 3 with a remainder of 3).
+
+Increment (++): This operator is used to increase the value of a variable by 1. For example, if x = 5, then ++x would make x equal to 6.
+
+Decrement (--): This operator is used to decrease the value of a variable by 1. For example, if x = 5, then --x would make x equal to 4.
+
+## Example :
+
+
+```
+public class Main {
+    public static void main(String[] args) {
+        int num = 5;
+        System.out.println(num + num);
+    }
+}
+```
+We stored 5 as int since it is a  whole number in variable called num and then print it the sum of num plus num. So if we run the code, the output will be 10.
+
+num + num here is called expression. An expression is a combination of values, variables, and operators that evaluate to a single value. For example, the expression "num1 + num2" uses the addition operator to add the values of "num1" and "num2" together, and the result is a single value.
+
+## Order of precedence
+
+In Java, operators have a specific order of precedence that determines the order in which they are evaluated when an expression contains multiple operators. This order is similar to the order of operations in mathematics, and is as follows:
+
+Multiplication (*), Division (/), and Modulus (%)
+
+Addition (+) and Subtraction (-)
+
+For example, in the expression `3 + 4 * 2`, the multiplication operator has higher precedence than the addition operator, so the multiplication is performed first, resulting in the expression 3 + 8, which evaluates to 11.
+
+However, if parentheses are used to group operations, they are evaluated first, regardless of operator precedence. For example, in the expression (3 + 4) * 2, the addition inside the parentheses is performed first, resulting in the expression 7 * 2, which evaluates to 14.
+
+It's important to note that operator precedence can be overridden using parentheses. If there is any doubt about the order in which an expression will be evaluated, it is a good practice to use parentheses to explicitly group the operations.
+
+Here's an example:
+
+
+```
+int a = 10;
+int b = 5;
+int c = 2;
+
+int result1 = a + b * c; // result1 will be 20
+int result2 = (a + b) * c; // result2 will be 30
+```
+
+## Conclusion 
+
+Arithmetic operators in Java are used to perform mathematical calculations on numeric values. Java provides various arithmetic operators such as addition, subtraction, multiplication, division, modulus, increment, and decrement. These operators can be used in expressions to evaluate a single value by combining values, variables, and operators. Operators have a specific order of precedence that determines the order in which they are evaluated when an expression contains multiple operators. It's important to use parentheses to group operations explicitly when there is any doubt about the order in which an expression will be evaluated. By understanding the arithmetic operators and their order of precedence, Java developers can perform complex mathematical calculations with ease.

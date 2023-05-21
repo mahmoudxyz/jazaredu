@@ -1,20 +1,17 @@
 # jazaredu
 
+// some steps are removed unlike the orginal version on jazaeredu.com
+
 # Content Creation Guide on GitHub
 
 Thank you for your interest in contributing content to our educational website! Below is a guide to help you get started with content creation using GitHub.
 
 ## Step 1: Fork the Repository
 
-1. Visit our GitHub repository: (https://github.com/mahmoudxyz/jazaredu.git).
-2. Click on the "Fork" button in the top right corner of the repository page.
-3. This will create a copy of the repository in your GitHub account.
+1. Click on the "Fork" button in the top right corner of the repository page.
+2. This will create a copy of the repository in your GitHub account.
 
-## Step 2: Set up Your Local Environment
 
-1. Install Git on your computer if you haven't already: [git-scm.com/downloads](https://git-scm.com/downloads).
-2. Open a terminal or command prompt.
-3. Clone the forked repository to your local machine using the following command:
 
 ## Step 3: Create and Edit Content
 

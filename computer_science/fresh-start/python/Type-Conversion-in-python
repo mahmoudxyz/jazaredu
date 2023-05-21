@@ -1,0 +1,76 @@
+## Introduction:
+
+Python is a dynamically-typed language, which means that the type of a variable is determined at runtime based on the value assigned to it. However, sometimes we need to ensure that the types of variables are correct, especially when working with functions or objects that require specific types of input. In this lesson, we will cover Type Error, Type Checking, and Type Conversion in Python.
+
+## Type Error:
+
+Type Error occurs when we try to perform an operation on a variable or value that is of the wrong type. For example, if we try to concatenate a string and an integer without converting the integer to a string first, we will get a Type Error:
+
+
+```
+age = 25
+message = "I am " + age + " years old."
+print(age)
+
+# Output: TypeError: can only concatenate str (not "int") to str
+```
+
+In this code snippet, we are trying to concatenate a string and an integer without converting the integer to a string first. This results in a Type Error because Python does not know how to concatenate a string and an integer.
+
+## Type Checking:
+
+Type Checking is the process of verifying that the types of variables are correct. We can use the built-in function `type()` to check the type of a variable:
+
+```
+age = 25
+print(type(age))
+# Output: <class 'int'>
+
+name = "John"
+print(type(name))
+# Output: <class 'str'>
+```
+
+In this code snippet, we use the `type()` function to check the type of the age and name variables. The output shows that age is an integer and name is a string.
+
+## Type Conversion:
+
+Type Conversion is the process of converting a variable from one data type to another. We can use built-in functions like `int()`, `float()`, and `str()` to convert between data types:
+
+
+```
+age_str = "25"
+age = int(age_str)
+print(age)
+# Output: 25
+
+price = 12.99
+price_str = str(price)
+print(price_str)
+# Output: '12.99'
+```
+
+In this code snippet, we use the `int()` function to convert the `age_str` variable from a string to an integer. We also use the `str()` function to convert the price variable from a float to a string.
+
+We can also use type conversion to perform arithmetic operations between different types of variables:
+
+
+```
+age = "25"
+age_num = int(age)
+
+print(age_num + 5)
+# Output: 30
+```
+
+In this code snippet, we convert the age variable from a string to an integer using the `int()` function. We can then perform arithmetic operations on the `age_num` variable.
+
+## Conclusion:
+
+In summary, Type Error, Type Checking, and Type Conversion are important concepts to understand when working with Python.
+
+Type Errors occur when we try to perform operations on variables of the wrong type. 
+
+Type Checking allows us to verify that the types of variables are correct.
+
+Type conversion involves changing the data type of a value or variable to another type. 

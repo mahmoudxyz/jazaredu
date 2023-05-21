@@ -1,0 +1,93 @@
+## Introduction:
+
+Mathematical operations are an essential part of any programming language, and Python is no exception. Python provides a wide range of mathematical operations that can be used for different purposes. These operations include addition, subtraction, multiplication, division, and more.
+
+In Python, mathematical operations can be performed on numbers of different data types, such as integers, floating-point numbers, and complex numbers. 
+
+
+## Basic mathematical operators
+
+Here are some of the basic mathematical operators in Python:
+
+1. Addition (+): Adds two or more values
+
+```
+# Addition
+x = 5
+y = 3
+print(x + y)  # Output: 8
+```
+
+2. Subtraction (-): Subtracts one value from another
+
+```
+# Subtraction
+a = 10
+b = 2
+print(a - b)  # Output: 8
+```
+
+
+3. Multiplication (*): Multiplies two or more values
+
+```
+# Multiplication
+p = 3
+q = 4
+print(p * q)  # Output: 12
+```
+
+4. Division (/): Divides one value by another
+
+```
+# Division
+m = 10
+n = 2
+print(m / n)  # Output: 5.0
+```
+
+5. Modulo (%): Returns the remainder of a division operation
+
+```
+# Modulo
+c = 13
+d = 5
+print(c % d)  # Output: 3
+```
+
+6. Exponentiation (**): Raises a number to a power
+
+```
+# Exponentiation
+e = 2
+f = 3
+print(e ** f)  # Output: 8
+```
+
+7. Floor Division (//): Returns the integer part of a division operation
+
+```
+# Floor Division
+g = 13
+h = 5
+print(g // h)  # Output: 2
+```
+## Priorities of Mathematical Operations:
+
+When performing mathematical operations in Python, it's essential to understand the priorities or order of operations. Python follows the standard mathematical order of operations, which is:
+
+* Parentheses - calculations inside parentheses are performed first
+* Exponents - calculations of exponentiation are performed second
+* Multiplication and division - multiplication and division are performed next, from left to right
+* Addition and subtraction - addition and subtraction are performed last, from left to right.
+ 
+For example, if we want to calculate the result of the following expression:
+`2 + 3 * 4`
+
+Python will perform the multiplication first because it has a higher priority, and then add the result to 2. The result will be 14.
+
+## Conclusion:
+
+In summary, mathematical operations are an essential aspect of Python programming. Python provides a wide range of mathematical operations that can be performed on numbers of different data types.
+
+It's important to understand the order of operations to ensure that calculations are performed correctly. By using parentheses, we can specify the order of operations and ensure that our calculations are accurate.

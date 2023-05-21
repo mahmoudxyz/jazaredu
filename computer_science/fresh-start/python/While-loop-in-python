@@ -1,0 +1,87 @@
+## Introduction
+
+In Python, the while loop is used to repeatedly execute a block of code as long as a certain condition is true. It is a pre-test loop, meaning that the condition is tested before the loop body is executed.
+
+## Syntax
+
+The basic syntax for a while loop in Python is:
+
+```
+while condition:
+    # code to execute while condition is True
+```
+
+The condition can be any expression that returns a Boolean value (True or False). The loop will continue executing as long as the condition is True.
+
+Here is a simple example of a while loop that counts from 0 to 4:
+
+
+```
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+```
+
+
+```
+Output:
+
+0
+1
+2
+3
+4
+```
+
+In this example, the loop runs as long as i is less than 5. Each time through the loop, the value of i is printed, and then i is incremented by 1.
+
+## Nested while loops
+
+It is also possible to have nested while loops, where one while loop is inside another. The inner loop runs to completion for each iteration of the outer loop.
+
+Here is an example of nested while loops:
+
+```
+i = 0
+while i < 3:
+    j = 0
+    while j < 2:
+        print(i, j)
+        j += 1
+    i += 1
+```
+
+
+```
+Output:
+
+0 0
+0 1
+1 0
+1 1
+2 0
+2 1
+```
+
+In this example, the outer loop runs 3 times, and the inner loop runs twice for each iteration of the outer loop. The output shows the values of i and j for each iteration of the loops.Notice that value of i change only in the outer loop while j in the inner loop.
+
+## Infinite while loops
+
+It is possible to create an infinite loop by using a while loop with a condition that is always True. This is sometimes useful when you want a program to keep running until the user decides to quit.
+
+Here is an example of an infinite while loop:
+
+```
+while True:
+    user_input = input("Enter a number (q to quit): ")
+    if user_input == 'q':
+        break
+    print("You entered:", user_input)
+```
+
+In this example, the loop runs forever until the user enters the letter 'q'. When this happens, the loop is terminated using the break statement.
+
+## Conclusion
+
+The while loop is a powerful construct in Python that allows you to repeatedly execute a block of code as long as a certain condition is true. It is a pre-test loop, meaning that the condition is tested before the loop body is executed. You can use nested while loops to create more complex behavior, and you can create an infinite loop by using a condition that is always True.

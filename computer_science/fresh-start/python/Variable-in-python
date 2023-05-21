@@ -1,0 +1,88 @@
+## Basic syntax
+
+In Python, a variable is a named storage location used to hold a value. This help you to store value of any type and then use it later.
+
+Variables can be assigned any of the data types we discussed in the introduction, such as integers, floating-point numbers, strings, and booleans.
+
+To assign a value to a variable, we use the = operator. For example:
+
+
+```
+x = 5
+y = 2.7
+name = "John"
+is_python_fun = True
+
+```
+
+In this code snippet, we have created four variables and assigned them values of different data types. We can then use these variables in our program, like so:
+
+
+```
+print(x + y)       # Output: 7.7
+print("My name is " + name)    # Output: My name is John
+print(is_python_fun)       # Output: True
+
+```
+
+## Naming conventions
+
+In Python, variable names should follow certain naming conventions to make your code more readable and understandable. Here are some guidelines:
+
+1. Variable names should start with a letter or an underscore.
+2. Variable names can only contain letters, numbers, and underscores.
+3. Variable names should be descriptive and meaningful.
+4. Variable names should be written in lowercase, with words separated by underscores for readability.
+
+For example, a variable name like my_var is more descriptive and easier to understand than a or x.
+
+Regarding storing two variables with the same name or a keyword, it's generally not recommended because it can cause confusion and make your code harder to read and maintain. However, you can technically do it in Python because the language allows you to reassign values to variables at any time. For example:
+
+
+```
+x = 10
+x = "Hello"
+
+```
+
+In this example, we assign an integer value to the variable x, but later we assign a string value to the same variable. This is possible in Python, but it's not a good practice because it can make your code harder to understand and debug.
+
+## Python Input Function
+
+The input() function in Python is used to accept user input from the command line or terminal. The function reads a line of text from the user, which can be used to gather information or data needed for further processing or computation in the program.
+
+Please note that although we haven't discussed what a function is or what built-in functions are, for now, you can think of them as factories that perform specific tasks for us. They are useful because they can reduce repetitive code and make our programs more modular and easier to read.
+
+The input() function takes a single optional parameter, which is a prompt message that is displayed to the user before accepting input. This prompt is a string that can help the user understand what kind of input is expected.
+
+Here's an example of using the input() function in Python:
+
+```
+name = input("Please enter your name: ")
+print("Hello, " + name + "!")
+```
+
+In this example, the input() function prompts the user to enter their name. The user enters their name and hits enter, and the input is stored in the name variable. The program then uses the print() function to output a greeting message that includes the user's name.
+
+It's important to note that the input() function always returns a string, regardless of what the user types in. If you need to convert the input to a different data type, such as an integer or float, you can use Python's built-in type conversion functions like int() or float(). For example:
+
+
+```
+age_str = input("Please enter your age: ")
+age = int(age_str)
+print("You will be " + str(age + 10) + " in 10 years.")
+```
+
+In this example, we use the input() function to accept the user's age as a string. We then convert the string to an integer using the int() function and store it in the age variable. We can then use the age variable to perform calculations and output a message that includes the user's age in 10 years.
+
+We will delve into type casting in greater depth in upcoming lessons, but for now, this basic understanding should suffice to get started.
+
+## Conclusion
+
+Variables in Python are named storage locations that hold values of different data types, including integers, floating-point numbers, strings, and booleans. Assigning a value to a variable is done using the = operator. It's important to follow naming conventions when choosing variable names to make code more readable and understandable.
+
+While it's possible to store two variables with the same name or a keyword, it's generally not recommended as it can cause confusion and make code harder to maintain.
+
+The input() function in Python allows user input from the command line or terminal. It takes an optional prompt message parameter that helps the user understand what kind of input is expected. The input() function always returns a string, but it can be converted to different data types using built-in type conversion functions like int() or float().
+
+Overall, understanding variables and the input() function is crucial for developing simple programs in Python. With further practice and learning, you can build more complex programs with ease.

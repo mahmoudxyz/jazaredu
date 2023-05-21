@@ -1,0 +1,78 @@
+## Introduction
+
+In Python, `elif` is a keyword used in conditional statements, along with if and else. The elif keyword allows us to check for multiple conditions in a more concise and efficient way.
+
+## Syntax
+
+The basic syntax of an if-elif-else statement in Python is:
+
+```
+if condition1:
+    # code to execute if condition1 is True
+elif condition2:
+    # code to execute if condition2 is True
+elif condition3:
+    # code to execute if condition3 is True
+else:
+    # code to execute if none of the conditions are True
+```
+
+Each elif statement is evaluated only if the preceding if statement or elif statement(s) are False. If any of the conditions are True, the corresponding block of code is executed and the rest of the conditions are skipped. If none of the conditions are True, the code within the else block is executed.
+
+## Examples
+
+Here are some examples of using elif statements in Python:
+
+### Example 1: Checking grades
+
+Suppose we want to write a program to print a message based on a student's grade. We can use an if-elif-else statement to do this:
+
+```
+grade = 85
+
+if grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
+elif grade >= 60:
+    print("D")
+else:
+    print("F")
+```
+
+In this code, the grade is 85, so the conditions are evaluated in order. Since 85 is greater than or equal to 80, the code within the elif block for B is executed, and the program skips the rest of the conditions. The output of this code is "B".
+
+### Example 2: Sorting numbers
+
+Suppose we want to write a program to sort three numbers in descending order. We can use an if-elif-else statement to do this:
+
+
+```
+a = 5
+b = 10
+c = 3
+
+if a >= b and a >= c:
+    if b >= c:
+        print(a, b, c)
+    else:
+        print(a, c, b)
+elif b >= a and b >= c:
+    if a >= c:
+        print(b, a, c)
+    else:
+        print(b, c, a)
+else:
+    if a >= b:
+        print(c, a, b)
+    else:
+        print(c, b, a)
+```
+
+In this code, the program checks the first condition a >= b and a >= c, and if it is True, it checks the nested if-else statement to print the correct order of numbers. If the first condition is False, the program moves to the next condition, and so on. The output of this code is "10 5 3". Yes, there's a more shorthand way to sort numbers but this is good practice for now.
+
+## Conclusion
+
+elif statements are a powerful tool in Python that allow us to check for multiple conditions in a concise and efficient way. By using elif, we can avoid writing multiple if statements and improve the readability of our code.

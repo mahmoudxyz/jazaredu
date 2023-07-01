@@ -66,8 +66,44 @@ You text here or maybe your LateX.
 :::lesson-enrich
 The term "salt factor" refers to the amount of the active ingredient present in a salt form compared to its non-salt form.
 :::
-
 ```
 ![lesson-Definition](https://i.imgur.com/YiPu9ZM.png)
 
 Only use this if you want to give more details but are not required so it will be hidden by default unless the user clicks on it.
+
+
+### Diagrams
+
+To create diagrams from a plain text language we use [PlantUML](https://plantuml.com/guide). Learn more from their official docs, how to draw UML and entity relationships and much more.
+
+To apply the text in our markdown please use the following: 
+
+  c```plantuml Your title
+
+  c```
+
+The title will be alt in the picture in HTML.
+
+For example the following:
+
+c```plantuml Your title
+
+class Class01 {
+string name
+void method()
+}
+
+class Class02 {
+string name
+void method()
+}
+
+Class01 <|-- Class02
+
+c```
+
+Will be :
+
+![Imgur](https://i.imgur.com/HWVsrGv.png)
+
+> please note that "c" is just for styling purpose and don't use it when writing.
